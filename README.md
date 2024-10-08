@@ -13,3 +13,18 @@ I also made a Solana based staking airdrop as well(https://github.com/btorressz/
 ## Contracts
 
 - `StakingAirdrop`: Main contract that handles staking, reward distribution, and premium access.
+
+  ## Contract Details
+
+### Staker Struct
+
+The `Staker` struct keeps track of each user's staking information:
+
+- `amountStaked`: The total amount of tokens staked by the user.
+- `stakingPeriod`: The time (in seconds) for which the tokens are staked.
+- `startTime`: The timestamp when staking began.
+- `hasPremiumAccess`: Whether the user has access to premium features based on their staking amount.
+
+### Premium Access
+
+Users who stake an amount greater than or equal to `1000 * 10^18` tokens (assuming 18 decimals for ERC20) will receive premium access for the staking period.
