@@ -71,7 +71,7 @@ To test the functionality of the `StakingAirdrop` contract, you can use the prov
 
 1. In the **Remix IDE**, create a file named `test.js` in the **File Explorer**.
 2. Copy the test code into `test.js`.
-3. Run the test by clicking the **Run** button in Remix.
+3. Run the test by clicking the **Compile and Run Script** button in Remix.
 
 ### Test Scenarios Covered
 
