@@ -79,3 +79,6 @@ To test the functionality of the `StakingAirdrop` contract, you can use the prov
 - **Staking Tokens**: Tests that users can stake tokens and that premium access is granted if they stake more than the threshold.
 - **Unstaking and Claiming Rewards**: Tests that users can unstake their tokens and claim rewards after the staking period ends.
 - **Simulating Time**: The test script includes time-traveling functionality to simulate the passage of time for testing the staking period.
+
+  ## License
+  This Project is under the **MIT LICENSE**
